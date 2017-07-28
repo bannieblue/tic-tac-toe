@@ -1,12 +1,18 @@
+* {
+  margin:0px;padding:0px;
+}
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
 
 ol, ul {
-  padding-left: 30px;
+  padding-left: 20px;
 }
-
+.board-row{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .board-row:after {
   clear: both;
   content: "";
@@ -42,12 +48,13 @@ ol, ul {
 
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .game-board,
 .game-info {
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 .highlight{
