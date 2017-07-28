@@ -7,7 +7,7 @@ body {
 }
 
 ol, ul {
-  padding-left: 20px;
+  padding-left: 18px;
 }
 .board-row{
     display: flex;
